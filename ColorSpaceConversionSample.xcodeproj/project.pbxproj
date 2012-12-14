@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		099AC32F1624580D00E12E63 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 099AC32E1624580D00E12E63 /* Default-568h@2x.png */; };
+		09DD3341167B31B00006C37B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DD3340167B31B00006C37B /* libc++.dylib */; };
+		09DD3344167B3CF00006C37B /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DD3343167B3CF00006C37B /* libc++.1.dylib */; };
+		09DD3346167B3D140006C37B /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DD3345167B3D140006C37B /* libc++abi.dylib */; };
 		09FD06211635A334007D4C7A /* ColorSpaceMaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09FD061F1635A334007D4C7A /* ColorSpaceMaker.cpp */; };
 		B553DE831581157500855F6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B553DE821581157500855F6F /* UIKit.framework */; };
 		B553DE851581157500855F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B553DE841581157500855F6F /* Foundation.framework */; };
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		099AC32E1624580D00E12E63 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09DD3340167B31B00006C37B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		09DD3343167B3CF00006C37B /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		09DD3345167B3D140006C37B /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 		09FD061F1635A334007D4C7A /* ColorSpaceMaker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorSpaceMaker.cpp; sourceTree = "<group>"; };
 		09FD06201635A334007D4C7A /* ColorSpaceMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSpaceMaker.h; sourceTree = "<group>"; };
 		B553DE7E1581157500855F6F /* ColorSpaceConversionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSpaceConversionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DD3346167B3D140006C37B /* libc++abi.dylib in Frameworks */,
+				09DD3344167B3CF00006C37B /* libc++.1.dylib in Frameworks */,
+				09DD3341167B31B00006C37B /* libc++.dylib in Frameworks */,
 				B56421E41585A1FD0006F3B0 /* opencv2.framework in Frameworks */,
 				B553DE831581157500855F6F /* UIKit.framework in Frameworks */,
 				B553DE851581157500855F6F /* Foundation.framework in Frameworks */,
@@ -64,6 +73,9 @@
 		B553DE731581157400855F6F = {
 			isa = PBXGroup;
 			children = (
+				09DD3345167B3D140006C37B /* libc++abi.dylib */,
+				09DD3343167B3CF00006C37B /* libc++.1.dylib */,
+				09DD3340167B31B00006C37B /* libc++.dylib */,
 				099AC32E1624580D00E12E63 /* Default-568h@2x.png */,
 				B553DE881581157500855F6F /* OpenCViPhoneApplication1 */,
 				B553DE811581157500855F6F /* Frameworks */,
